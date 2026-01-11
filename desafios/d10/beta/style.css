@@ -1,0 +1,155 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "Idroid";
+    src: url("fontes/idroid.otf") format("opentype");
+}
+
+body {
+    background-color: #82D9A0;
+    margin: 0;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #34BA70, #1B5936);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    max-width: 100%;
+}
+
+header > h1 {
+    color: white;
+    font: normal 2em "Idroid", Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.355);
+    text-align: center;
+}
+
+header > p {
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.355);
+    text-align: center;
+}
+
+header > nav > a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    margin: 5px;
+}
+
+header > nav > a:hover {
+    background-color: #34BA70;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+main {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 0px 0px 20px 20px;
+    text-align: justify;
+}
+
+main > h1 {
+    font-family: "Idroid", Arial, Helvetica, sans-serif;
+    color: #1B5936;
+}
+
+main img {
+    max-width: 100%;
+    margin: 0 auto;
+    height: auto;
+    display: block;
+}
+
+main iframe {
+    max-width: 100%;
+    margin: auto;
+    display: block;
+}
+
+main > h2 {
+    background-image: linear-gradient(to right, #34ba706b, white 80%);
+    padding: 5px;
+    font-family: "Idroid", Arial, Helvetica, sans-serif;
+    color: #1B5936;
+}
+
+span {
+    text-decoration: none;
+    color: #1B5936;
+    font-weight: bold;
+}
+
+p {
+    text-indent: 20px;
+}
+
+section {
+    background-color: #C5EBD6;
+    padding: 0px;
+    margin: 20px 0px;
+    border-radius: 20px;
+}
+
+section > h1 {
+    background-color: #2CA662;
+    color: white;
+    margin: 0px;
+    padding: 15px;
+    font-size: 1em;
+    text-align: left;
+    border-radius: 20px 20px 0px 0px;
+}
+
+section > p {
+    padding: 5px 15px;
+    text-align: justify;
+}
+
+section > ul {
+    columns: 2;
+}
+
+section > ul > li{
+    padding: 0px 15px;
+}
+
+.check {
+    list-style: none;
+    padding: 0px;
+}
+
+.check li::before {
+    content: "✔ ";
+    font-weight: bold;
+}
+
+.negrito {
+    font-size: bold;
+    color: white;
+}
+
+footer {
+    background-color: #1B5936;
+    padding: 10px;
+    margin: 20px 0px 0px 0px;
+}
+
+footer > p {
+    text-align: center;
+    margin: 0px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #2CA662;
+}
+
+.link::after {
+    content: "\1F517";
+}
