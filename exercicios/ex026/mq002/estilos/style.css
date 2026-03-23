@@ -14,7 +14,7 @@ html, body {
     background-color: blue;
     background-size: contain;
     background-repeat: no-repeat;
-    background-attachment: scroll;
+    background-attachment: fixed;
 }
 
 h1 {
