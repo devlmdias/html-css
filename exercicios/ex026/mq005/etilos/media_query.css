@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+/* Typical Device Breakpoints
+-----------------------------
+XS - até 600px
+X - 600px até 768px
+M - 768px até 992px
+L - 992px até 1200px
+XL - 1200px pra cima
+*/
+
+@media screen and (min-width: 768px) {
+    span#burger {
+        display: none;
+    }
+
+    menu {
+        display: block;
+    }
+
+    menu > ul > li {
+        display: inline-block;
+    }
+
+    main {
+        width: 768px;
+    }
+}
